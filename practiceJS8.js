@@ -1,5 +1,5 @@
 function finalGrade(examGrade, projectQuantity) {
-	let grade = 0;
+let grade = 0;
   if (examGrade > 50 || projectQuantity >= 2) {
   	grade = 75;
   }
