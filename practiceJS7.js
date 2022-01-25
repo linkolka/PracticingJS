@@ -1,7 +1,7 @@
 let weight = [1, 3, 4, 5, 10];
 let recommendation;
 
-	for (let item of weight) {
+for (let item of weight) {
 	
     if (item < 4) {
     recommendation = 'Пора перекусить';
@@ -13,5 +13,5 @@ let recommendation;
     recommendation = 'Пора на тренировку';
     }
     
-  	console.log(recommendation);
-	} 
+  console.log(recommendation);
+} 
